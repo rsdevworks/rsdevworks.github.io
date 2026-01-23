@@ -3,7 +3,7 @@ export default function Terms() {
         <section id="terms" className="py-32 bg-gray-950 border-t border-gray-800 text-white">
             <div className="max-w-4xl mx-auto px-5">
                 <h1 className="text-5xl md:text-6xl font-black mb-8 text-primary">Terms of Service</h1>
-                
+
                 <div className="prose prose-invert max-w-none space-y-6">
                     <p className="text-gray-400">Last updated: January 23, 2026</p>
 
