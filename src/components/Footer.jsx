@@ -13,7 +13,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <p className="text-sm font-medium text-gray-400">
-                    © 2026 {'RS{devworks}'} • Proudly South African
+                    © 2026 {'RS{Devworks}'} • Proudly South African
                 </p>
             </div>
         </footer>
