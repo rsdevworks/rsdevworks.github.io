@@ -28,7 +28,7 @@ export default function Contact() {
                             href="tel:+27763389108"
                             className="text-primary font-bold hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
                         >
-                            +27 76 338 9108
+                            +27 69 684 4515
                         </a>
                     </div>
                 </div>
