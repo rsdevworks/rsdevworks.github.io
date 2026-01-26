@@ -23,13 +23,13 @@ export default function Hero() {
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.2s' }}>
                     <a
-                        href="#coming-soon"
+                        href="/#coming-soon"
                         className="btn-primary"
                     >
                         Get Started
                     </a>
                     <a
-                        href="#portfolio"
+                        href="/#portfolio"
                         className="btn-secondary"
                     >
                         Learn More
