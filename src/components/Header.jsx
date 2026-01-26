@@ -12,7 +12,7 @@ export default function Header() {
                             alt="rsdevworks logo"
                             className="w-9 h-9 object-contain rounded-lg"
                         />
-                        <h2 className="text-white font-bold text-base hidden sm:block font-poppins tracking-tight">{'RS Devworks '}</h2>
+                        <h2 className="text-white font-bold text-base hidden sm:block font-poppins tracking-tight">{'RSDevworks '}</h2>
                     </Link>
                     <nav className="hidden md:flex space-x-8">
                         <Link to="/#home" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{' Home '}</Link>

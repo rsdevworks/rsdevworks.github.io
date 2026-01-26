@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
     return (
         <section id="home" className="bg-gray-950 text-white py-40 pb-24 text-center relative overflow-hidden">
@@ -22,18 +24,18 @@ export default function Hero() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.2s' }}>
-                    <a
-                        href="#coming-soon"
+                    <Link
+                        to="/#coming-soon"
                         className="btn-primary"
                     >
                         Get Started
-                    </a>
-                    <a
-                        href="#portfolio"
+                    </Link>
+                    <Link
+                        to="/#portfolio"
                         className="btn-secondary"
                     >
                         Learn More
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
