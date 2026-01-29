@@ -69,6 +69,14 @@ export function getLocalBusinessSchema() {
         priceRange: '$',
         telephone: companyPhone,
         email: companyEmail,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: '41 Nentabos St',
+            addressLocality: 'Amberfield Glen',
+            addressRegion: 'Centurion',
+            postalCode: '0157',
+            addressCountry: 'ZA',
+        },
     }
 }
 
