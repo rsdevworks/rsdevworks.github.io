@@ -32,14 +32,23 @@ export function getOrganizationSchema() {
         },
         address: {
             '@type': 'PostalAddress',
+            streetAddress: '41 Nentabos St',
+            addressLocality: 'Amberfield Glen',
+            addressRegion: 'Centurion',
+            postalCode: '0157',
             addressCountry: 'ZA',
-            addressLocality: 'South Africa',
         },
         foundingDate: '2020',
-        founder: {
-            '@type': 'Person',
-            name: 'Cyrian',
-        },
+        founder: [
+            {
+                '@type': 'Person',
+                name: 'Mashao Raluvhimba gift',
+            },
+            {
+                '@type': 'Person',
+                name: 'Sbusiso ndlovu',
+            },
+        ],
     }
 }
 
