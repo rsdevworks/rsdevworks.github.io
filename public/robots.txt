@@ -1,0 +1,17 @@
+# rsdevworks robots.txt
+# Allow search engines to crawl and index all public pages
+
+User-agent: *
+Allow: /
+Allow: /terms
+Allow: /privacy
+
+# Disallow private/admin pages (if any)
+Disallow: /admin
+Disallow: /api
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://rsdevworks.co.za/sitemap.xml
