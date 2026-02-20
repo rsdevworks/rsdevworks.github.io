@@ -31,11 +31,7 @@ export default function Portfolio() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {/* Featured App Card */}
-                    <button
-                        type="button"
-                        onClick={openModal}
-                        className="card text-left overflow-hidden border-2 border-primary relative group hover:-translate-y-4 shadow-2xl lg:col-span-2 focus:outline-none focus:ring-4 focus:ring-primary/50"
-                    >
+                    <div className="card text-left overflow-hidden border-2 border-primary relative group hover:-translate-y-4 shadow-2xl lg:col-span-2">
                         <div className="relative overflow-hidden h-96 bg-gradient-to-br from-gray-800 to-gray-900">
                             <img
                                 src={myVirtualCards}
@@ -43,8 +39,8 @@ export default function Portfolio() {
                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
-                            <div className="absolute top-6 right-6 bg-primary text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-xl flex items-center gap-2">
-                                <span>🚀</span> COMING SOON
+                            <div className="absolute top-6 right-6 bg-green-600 text-white px-5 py-2.5 rounded-lg font-bold text-sm shadow-xl flex items-center gap-2 animate-pulse">
+                                <span>✨</span> LIVE NOW
                             </div>
                         </div>
                         <div className="p-10">
@@ -54,11 +50,28 @@ export default function Portfolio() {
                             <p className="text-gray-400 mb-6 leading-relaxed text-base">
                                 One secure app that stores every barcoded card you own. Say goodbye to bulging wallets forever.
                             </p>
-                            <span className="inline-block bg-primary/10 text-primary font-semibold text-sm px-5 py-2.5 rounded-lg border border-primary/30">
-                                Productivity • Launching 2026
-                            </span>
+                            <div className="flex flex-wrap gap-4 items-center">
+                                <span className="inline-block bg-primary/10 text-primary font-semibold text-sm px-5 py-2.5 rounded-lg border border-primary/30">
+                                    Productivity • Available Now
+                                </span>
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.myvirtualcards"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white font-semibold text-sm px-6 py-2.5 rounded-lg transition-colors shadow-lg hover:shadow-xl"
+                                >
+                                    <span>📱</span> Get on Google Play
+                                </a>
+                                <button
+                                    type="button"
+                                    onClick={openModal}
+                                    className="inline-block text-primary hover:text-primary/80 font-semibold text-sm underline transition-colors"
+                                >
+                                    View Details
+                                </button>
+                            </div>
                         </div>
-                    </button>
+                    </div>
 
                     {/* Placeholder for additional apps */}
                     <div className="card overflow-hidden relative group hover:-translate-y-4 shadow-2xl bg-gray-800 flex flex-col items-center justify-center p-8 text-center">
@@ -80,7 +93,7 @@ export default function Portfolio() {
                                 <div>
                                     <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-2">Product Spotlight</p>
                                     <h3 className="text-3xl font-bold text-white font-poppins">MyVirtualCards</h3>
-                                    <p className="text-gray-400 text-sm">Productivity • Launching 2026</p>
+                                    <p className="text-gray-400 text-sm">Productivity • Available Now</p>
                                 </div>
                                 <button
                                     type="button"
@@ -180,7 +193,18 @@ export default function Portfolio() {
                                     </div>
                                 </div>
 
-                                <p className="text-gray-400 text-sm">Tap anywhere outside to close</p>
+                                <div className="flex justify-center">
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=com.myvirtualcards"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 rounded-lg transition-colors shadow-lg hover:shadow-xl text-lg"
+                                    >
+                                        <span>📱</span> Download on Google Play
+                                    </a>
+                                </div>
+
+                                <p className="text-gray-400 text-sm text-center">Tap anywhere outside to close</p>
                             </div>
                         </div>
                     </div>
