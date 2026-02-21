@@ -44,7 +44,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="p-10">
-                            <h3 
+                            <h3
                                 onClick={openModal}
                                 className="text-3xl font-bold text-white mb-3 group-hover:text-primary transition-colors font-poppins cursor-pointer hover:underline"
                             >
