@@ -31,7 +31,7 @@ export default function Hero() {
                     {/* Main Headline */}
                     <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
                         <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight font-poppins">
-                            The future of <span className="italic text-primary">cards.</span> <br />
+                            The future of <span className="text-primary">cards.</span> <br />
                             <span className="text-gray-400">Powered by MyVirtualCards.</span>
                         </h1>
                     </div>

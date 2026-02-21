@@ -25,7 +25,7 @@ export default function ComingSoon() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold px-10 py-5 rounded-lg transition-all shadow-lg hover:shadow-xl text-lg hover:scale-105 transform"
                     >
-                        <span className="text-2xl">📱</span> Download on Google Play
+                        Download on Google Play
                     </a>
                 </div>
 

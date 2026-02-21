@@ -44,7 +44,10 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="p-10">
-                            <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-primary transition-colors font-poppins">
+                            <h3 
+                                onClick={openModal}
+                                className="text-3xl font-bold text-white mb-3 group-hover:text-primary transition-colors font-poppins cursor-pointer hover:underline"
+                            >
                                 MyVirtualCards
                             </h3>
                             <p className="text-gray-400 mb-6 leading-relaxed text-base">
@@ -60,15 +63,8 @@ export default function Portfolio() {
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white font-semibold text-sm px-6 py-2.5 rounded-lg transition-colors shadow-lg hover:shadow-xl"
                                 >
-                                    <span>📱</span> Get on Google Play
+                                    Get on Google Play
                                 </a>
-                                <button
-                                    type="button"
-                                    onClick={openModal}
-                                    className="inline-block text-primary hover:text-primary/80 font-semibold text-sm underline transition-colors"
-                                >
-                                    View Details
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -82,13 +78,13 @@ export default function Portfolio() {
                 </div>
 
                 {isModalOpen && (
-                    <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
+                    <div className="fixed inset-0 z-50 overflow-y-auto py-4 px-4">
                         <div
                             className="absolute inset-0 bg-black/80 backdrop-blur-sm"
                             onClick={closeModal}
                             aria-hidden="true"
                         ></div>
-                        <div className="relative max-w-4xl w-full bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl overflow-hidden animate-[fadeIn_180ms_ease-out]">
+                        <div className="relative max-w-4xl w-full bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl overflow-hidden animate-[fadeIn_180ms_ease-out] mx-auto my-8">
                             <div className="flex justify-between items-start p-6 border-b border-gray-800">
                                 <div>
                                     <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-2">Product Spotlight</p>
@@ -105,7 +101,7 @@ export default function Portfolio() {
                                 </button>
                             </div>
 
-                            <div className="p-6 space-y-5">
+                            <div className="p-6 space-y-5 max-h-[calc(100vh-12rem)] overflow-y-auto">
                                 <p className="text-gray-300 leading-relaxed text-lg">
                                     One secure app that stores every barcoded card you own. Digitize loyalty, membership,
                                     and access cards so you can travel lighter without losing benefits.
@@ -200,7 +196,7 @@ export default function Portfolio() {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 rounded-lg transition-colors shadow-lg hover:shadow-xl text-lg"
                                     >
-                                        <span>📱</span> Download on Google Play
+                                        Download on Google Play
                                     </a>
                                 </div>
 
