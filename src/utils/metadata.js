@@ -36,6 +36,16 @@ export const metadata = {
         ogImage: `${baseUrl}/og-image.png`,
         ogType: 'website',
     },
+    'myvirtualcards-privacy': {
+        title: 'Privacy Policy | MyVirtualCards',
+        description: 'Read the MyVirtualCards privacy policy to understand how we collect, use, and protect your data in the app.',
+        keywords: 'MyVirtualCards, privacy policy, data protection, VRC',
+        canonical: `${baseUrl}/myvirtualcards/privacy`,
+        ogTitle: 'Privacy Policy | MyVirtualCards',
+        ogDescription: 'MyVirtualCards Privacy Policy - Your cards are stored locally and your backups are encrypted.',
+        ogImage: `${baseUrl}/og-image.png`,
+        ogType: 'website',
+    },
 }
 
 /**

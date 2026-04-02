@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Terms from './components/Terms'
 import PrivacyPolicy from './components/PrivacyPolicy'
+import MyVirtualCardsPrivacy from './components/MyVirtualCardsPrivacy'
 import NotFound from './components/NotFound'
 import Footer from './components/Footer'
 import { getOrganizationSchemas, createJsonLdScript } from './utils/structuredData'
@@ -71,6 +72,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/terms" element={<Terms />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
+                <Route path="/myvirtualcards/privacy" element={<MyVirtualCardsPrivacy />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
