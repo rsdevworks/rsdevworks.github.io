@@ -17,7 +17,7 @@ export default function About() {
 
                 <div className="space-y-8 text-gray-400 text-lg leading-relaxed mb-16 max-w-3xl mx-auto">
                     <p className="text-gray-300 text-base md:text-lg">
-                        CreativeDevs is a proudly South African product studio. We dream up original app ideas, design beautiful experiences, write clean code, and launch them directly to the App Store, Play Store, and the web.
+                        RSDevworks is a proudly South African product studio. We dream up original app ideas, design beautiful experiences, write clean code, and launch them directly to the App Store, Play Store, and the web.
                     </p>
                     <p className="text-gray-300 text-base md:text-lg">
                         Every app we make is owned, operated, and continuously improved by us — which means we're obsessed with making products that real people actually use and love every day.
