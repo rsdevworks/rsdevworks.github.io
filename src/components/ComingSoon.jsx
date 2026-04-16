@@ -3,7 +3,8 @@ export default function ComingSoon() {
         <section id="coming-soon" className="py-32 bg-gray-900 relative overflow-hidden border-t border-gray-800">
             <div className="max-w-4xl mx-auto px-5 text-center relative z-10">
                 <p className="text-green-500 font-medium text-sm tracking-wide uppercase mb-4 flex items-center justify-center gap-2">
-                    <span className="animate-pulse">✨</span> Now Available
+                    <ion-icon name="sparkles-outline" style={{ fontSize: '18px' }} className="animate-pulse"></ion-icon>
+                    Now Available
                 </p>
                 <h2 className="section-title mb-6">
                     MyVirtualCards – Download Now!
@@ -13,9 +14,15 @@ export default function ComingSoon() {
                     <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-6">
                         The ultimate digital wallet for every barcoded card in your life
                     </p>
-                    <p className="text-gray-400 text-sm md:text-base leading-relaxed">
-                        🛒 Supermarket loyalty • 💪 Gym & student cards • 🚪 Access cards • 🏥 Medical aid • 📚 Library cards • ⛽ Fuel rewards • ☕ Coffee punch cards
-                    </p>
+                    <div className="text-gray-400 text-sm md:text-base leading-relaxed flex flex-wrap justify-center gap-x-4 gap-y-2">
+                        <span className="inline-flex items-center gap-2"><ion-icon name="cart-outline"></ion-icon>Supermarket loyalty</span>
+                        <span className="inline-flex items-center gap-2"><ion-icon name="barbell-outline"></ion-icon>Gym & student cards</span>
+                        <span className="inline-flex items-center gap-2"><ion-icon name="key-outline"></ion-icon>Access cards</span>
+                        <span className="inline-flex items-center gap-2"><ion-icon name="medkit-outline"></ion-icon>Medical aid</span>
+                        <span className="inline-flex items-center gap-2"><ion-icon name="library-outline"></ion-icon>Library cards</span>
+                        <span className="inline-flex items-center gap-2"><ion-icon name="car-sport-outline"></ion-icon>Fuel rewards</span>
+                        <span className="inline-flex items-center gap-2"><ion-icon name="cafe-outline"></ion-icon>Coffee punch cards</span>
+                    </div>
                 </div>
 
                 <div className="flex justify-center">
@@ -30,7 +37,10 @@ export default function ComingSoon() {
                 </div>
 
                 <p className="mt-8 text-gray-400 text-sm font-medium">
-                    ✓ 100% free to download. Ditch the plastic wallet today!
+                    <span className="inline-flex items-center gap-2">
+                        <ion-icon name="checkmark-circle-outline" style={{ color: 'var(--color-primary)', fontSize: '18px' }}></ion-icon>
+                        100% free to download. Ditch the plastic wallet today!
+                    </span>
                 </p>
             </div>
         </section>
