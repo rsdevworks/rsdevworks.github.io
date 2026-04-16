@@ -23,12 +23,22 @@ export default function Contact() {
                     </div>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-lg">
                         <span>📞</span>
-                        <span className="text-gray-300">or call</span>
+                        <span className="text-gray-300">call</span>
                         <a
-                            href="tel:+27763389108"
+                            href="tel:+27689253516"
                             className="text-primary font-bold hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
                         >
-                            +27 69 684 4515
+                            +27 689253516
+                        </a>
+                    </div>
+                                        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-lg">
+                        <span></span>
+                        <span className="text-gray-300">or Whatsapp</span>
+                        <a
+                            href="tel:+27689253516"
+                            className="text-primary font-bold hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
+                        >
+                            +27 689253516
                         </a>
                     </div>
                 </div>
