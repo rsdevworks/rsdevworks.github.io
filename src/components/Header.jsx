@@ -17,7 +17,7 @@ export default function Header() {
                     <nav className="hidden md:flex space-x-8">
                         <Link to="/#home" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{' Home '}</Link>
                         <Link to="/#services" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{'What We Do '}</Link>
-                        <Link to="/#portfolio" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{' Our Apps '}</Link>
+                        <Link to="/#portfolio" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{' Our Projects '}</Link>
                         <Link to="/#about" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{' About '}</Link>
                         <Link to="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">{' Contact '}</Link>
                     </nav>
