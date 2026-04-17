@@ -37,7 +37,7 @@ export default function About() {
 
                 <div className="space-y-8 text-gray-400 text-lg leading-relaxed mb-16 max-w-3xl mx-auto">
                     <p className="text-gray-300 text-base md:text-lg">
-                        RSDevworks is a proudly South African software studio. We design and build end-to-end digital products, from mobile and web apps to internal tools, APIs, and cloud-backed platforms.
+                        RSDevworks is a proudly South African software company. We design and build end-to-end digital products, from mobile and web apps to internal tools, APIs, and cloud-backed platforms.
                     </p>
                     <p className="text-gray-300 text-base md:text-lg">
                         We focus on practical engineering that improves operations, customer experience, and growth. Every product we ship is maintained, measured, and continuously improved for long-term value.
