@@ -6,23 +6,23 @@ import scaleIllustration from "../assets/scale.png";
 export default function Services() {
     const services = [
         {
-            title: "Mobile App Development",
-            description: "iOS & Android apps built with Flutter, React Native or native Swift/Kotlin.",
+            title: "Mobile Solutions",
+            description: "iOS and Android products built with Flutter, React Native, or native stacks.",
             image: mobileIllustration
         },
         {
-            title: "Web Applications",
-            description: "Fast, responsive web apps using React, Vue, or Next.js.",
+            title: "Web Platforms",
+            description: "Fast, scalable web platforms using React, Vue, and modern backend integrations.",
             image: webIllustration
         },
         {
-            title: "UI/UX Design",
-            description: "Beautiful, user-centered designs that your customers will love.",
+            title: "Product Design",
+            description: "User-centered UX/UI design systems that improve adoption and customer experience.",
             image: designIllustration
         },
         {
-            title: "App Maintenance & Scale",
-            description: "Ongoing support, updates, and scaling as your user base grows.",
+            title: "Automation, Support & Scale",
+            description: "API integrations, process automation, and ongoing support as your business grows.",
             image: scaleIllustration
         }
     ];
@@ -32,10 +32,10 @@ export default function Services() {
             <div className="max-w-7xl mx-auto px-5">
                 <p className="text-center text-primary font-medium text-sm tracking-wide uppercase mb-4">What We Do</p>
                 <h2 className="section-title text-center mb-6">
-                    We Create & Launch Our Own Apps
+                    We Design, Build, and Scale Software
                 </h2>
                 <p className="section-subtitle text-center mb-16">
-                    Cutting-edge solutions built with the latest technologies
+                    End-to-end digital solutions across web, mobile, integrations, and product growth.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
